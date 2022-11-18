@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Program JavaScript</title>
+</head>
+<script language = "JavaScript">
+    var nilai = prompt("Nilai (0-100): ", 0);
+    var hasil = "";
+    if (nilai >= 81)
+    {
+        hasil = "A";
+    } else if (nilai >= 71){ 
+        hasil = "AB";
+    } else if (nilai >= 66) {
+        hasil = "B";
+    } else if (nilai >= 61){
+        hasil = "BC";
+    } else if (nilai >= 56){
+        hasil = "C";
+    } else if (nilai >= 41){
+        hasil = "D";
+    } else if (nilai >= 0){
+        hasil = "E";
+    }
+    document.write("Hasil: " + hasil);
+</script>
+<body>
+</body>
+</html>
